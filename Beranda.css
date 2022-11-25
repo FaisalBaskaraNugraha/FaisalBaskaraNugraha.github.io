@@ -1,0 +1,75 @@
+ .u-section-1 {
+  background-image: url("images/KAMPUSudinus.jpg");
+  background-position: 50% 50%;
+  min-height: 400px;
+}
+
+.u-section-1 .u-group-1 {
+  width: calc(((100% - 1140px) / 2) + 658px);
+  min-height: 400px;
+  height: auto;
+  margin: 0 0 0 auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 91px auto 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 8px 0 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 330px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 940px) / 2) + 658px);
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 253px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 720px) / 2) + 658px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 190px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 540px) / 2) + 540px);
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 120px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+}
